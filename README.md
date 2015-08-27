@@ -1,7 +1,7 @@
 # CFWheels Asset Bundler
 
-The asset bundler is a plugin to easily add bunding and compression for your javascript and stylesheet files. This allows you
-to keep a neat and organized javascript or css library and combine and minify the files in your testing and production
+The asset bundler is a plugin to easily add bunding and compression for your JavaScript and stylesheet files. This allows you
+to keep a neat and organized JavaScript or css library and combine and minify the files in your testing and production
 environments.
 
 This plugin will override existing functionality within the Wheels core API and add a new method.
@@ -9,7 +9,7 @@ This plugin will override existing functionality within the Wheels core API and 
 ## New Methods
 
 -  `generateBundle`
-   -  `type** - the type of files your are compressing together - can be `js` or `css`
+   -  `type` - the type of files your are compressing together - can be `js` or `css`
 	 -  `source`/`sources` - the files you would like to be compressed together
 	 -  `bundle` - the name of the bundled file - it may contain a folder structure ex. `bundles/core`
 	 -  `compress` - whether to have the YUI compressor compress the bundled files, defaults to false
